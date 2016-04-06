@@ -17,7 +17,7 @@ namespace DungeonMasterHelper.ViewModels {
                 AbilityScores[i] = sumScore.ToString();
             }
             // Hack to update age, height, and weight fields.
-            OnPropertyChanged("Gender");
+            Race = Race;
         }
 
         #region Properties
